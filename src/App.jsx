@@ -1,11 +1,15 @@
-import { Button } from '@carbon/react';
+import { Button, Content } from '@carbon/react';
+import TutorialHeader from './components/TutorialHeader';
 import './app.scss';
 
 function App() {
   return (
-    <div>
-      <Button>Button</Button>
-    </div>
+    <>
+      <TutorialHeader />
+      <Content>
+        <Button>Button</Button>
+      </Content>
+    </>
   );
 }
 
